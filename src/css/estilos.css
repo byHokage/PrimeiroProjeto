@@ -3,7 +3,7 @@ body {
     background-image: url('../imagens/fundoprincipal2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 100vh;
+    min-width: 100%;
 }
 
 .cabecalho {
@@ -155,4 +155,8 @@ text-transform: uppercase;
 
     .cartao.fundo-9{
         background: url(../imagens/fundo9.png) no-repeat;
+    }
+
+    html{
+        height: 100%;
     }
